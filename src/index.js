@@ -6,7 +6,7 @@ function App() {
     <>
       <h2>Нужно залогиниться!</h2>
       <button>Войти</button>
-      <button>Выйти</button>
+      <button>Выйqqqти</button>
     </>
   );
 }
