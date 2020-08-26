@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
 
 function App() {
   return (
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+render(<App />, document.querySelector("#root"));
