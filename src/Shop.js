@@ -1,4 +1,5 @@
 import React from "react";
+import Item from "./Item";
 
 const Shop = () => {
   const items = [
@@ -15,8 +16,8 @@ const Shop = () => {
   ];
   return (
     <div className="shop">
-      <Item />
-      <Item />
+      <Item items={items[0]} />
+      <Item items={items[1]} />
     </div>
   );
 };
